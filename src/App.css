@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  transition-duration: 0.5s;
+}
+
+html {
+  font-size: 10px;
+  background-color: #EDF2C5;
+}
+
+.container {
+  padding: 3.6rem 16rem; 
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  color: #778A50;
+  font-size: 4.4rem;
+  font-weight: 900;
+}
+
+.header-right {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.header-right img {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-left: 1.2rem;
+}
+
+.btn-instagram { 
+  padding-right: 1rem;
+  border-right: solid 1px #778A50;
+}
+
+.header-right button {
+  padding: 0.4rem 0.8rem;
+  color: #778A50;
+  border: solid #778A50 1px;
+  background-color: #EDF2C5;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-left: 1.1rem;
+  transition-duration: 0.5s;
+}
+
+.header-right button:hover {
+  cursor: pointer;
+  background-color: #778A50;
+  color: #EDF2C5;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  background-color: #778A50;
+  border-radius: 0.3rem;
+  width: 100%;
+  min-width: 36rem;
+  margin-top: 1.5rem;
+}
+
+.nav-btn {
+  font-size: 1.6rem;
+  color: #EDF2C5;
+  margin: 1rem 3rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+.main-img {
+  width: 100%;
+  height: 100%;
+  margin: 1.6rem 0;
+  min-width: 36rem;
+}
+
+/* Vegetables & Contact Sections */
+.section {
+  margin-bottom: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3.2rem;
+}
+
+.vegetables-section,
+.contact-section {
+  padding: 1.6rem 0;
+}
+
+.vegetables-section h2,
+.contact-section h2 {
+  background-color: #778A50;
+  color: #EDF2C5;
+  border-radius: 0.3rem;
+  padding: 1rem 3rem;
+  margin-bottom: 1.6rem;
+}
+
+.img-vegetable {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1.6rem;
+}
+
+.vegetables-images {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-text {
+  background-color: #F7FBDA;
+  padding: 1.6rem;
+  min-height: 12.4rem;
+}
+
+.contact-text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #7D7D7D;
+  padding: 1rem 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #778A50;
+  padding: 2.1rem;
+  text-align: center;
+  color: #EDF2C5;
+  font-size: 1.2rem;
+}
